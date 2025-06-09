@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>    
+	<title>O autoru</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body> 
+  	<div class="page">
+		<div class="ostalo">
+			<h1>ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</h1>
+  			<div class="meni">
+  				<nav>
+					<a href="../index.html">Почетна</a>
+					<a class="aktiv" href="o_autoru.html">О аутору</a>
+					<a href="uputstvo.html">Упутство</a>
+				</nav>
+  			</div> 
+  			<h2>Звуци инструмената</h2> 		
+   			<div class="tekst-autora">
+				<h3>Марко Ристић</h3>
+				<p>Ученик Техничке школе у Ужицу, смер ЕИТ</p>
+			</div>
+		</div>
+		<div class="footer">
+			Copyright Ⓒ Основна школа "Соња Маринковић"
+		</div>
+	</div> 
+</body>
+</html>
