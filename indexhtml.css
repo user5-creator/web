@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>Почетна</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Kodovi/main.css">
+</head>
+<body>
+	<div class="page">
+		<div class="ostalo">
+			<h1>ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</h1>
+  			<div class="meni">
+  				<nav>
+					<a class="aktiv" href="index.html">Почетна</a>
+					<a href="Kodovi/o_autoru.html">О аутору</a>
+					<a href="Kodovi/uputstvo.html">Упутство</a>
+				</nav>
+  			</div>
+  			   		
+   			<h3>Звуци инструмената</h3>
+
+   			<div class="glavni">
+   				<div class="prvi">
+   					М к <br>
+   					у у <br>
+   					з л <br>
+   					и т <br>
+   					ч у <br>
+   					к р <br>
+   					а а <br>
+   				</div>
+   				<div class="drugi">
+   				<table>
+				<tr>
+					<th>Назив инструмента</th>
+					<th>Слика инструмента</th>
+					<th>Звук инструмента</th>
+				</tr>
+				<tr>
+					<td>Гитара</td><td><a href="https://sr.wikipedia.org/wiki/gitara" target="_blank"><img class="foto-inst" src="Slike/gitara.jpg"></a></td><td><img id="gitara"  class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a1">Сазнај више</a></td>
+				</tr>
+				<tr>
+					<td>Хармоника</td><td><a href="https://sr.wikipedia.org/wiki/harmonika" target="_blank"><img class="foto-inst" src="Slike/harmonika.jpg"></a></td><td><img id="harmonika" class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a2">Сазнај више</a></td>
+				</tr>
+				<tr>
+					<td>Труба</td><td><a href="https://sr.wikipedia.org/wiki/truba" target="_blank"><img class="foto-inst" src="Slike/truba.jpg"></a></td><td><img id="truba" class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a3">Сазнај више</a></td>
+				</tr>
+				<tr>
+					<td>Саксофон</td><td><a href="https://sr.wikipedia.org/wiki/saksofon" target="_blank"><img class="foto-inst" src="Slike/saksofon.jpg"></a></td><td><img id="saksofon" class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a4">Сазнај више</a></td>
+				</tr>
+				<tr>
+					<td>Клавир</td><td><a href="https://sr.wikipedia.org/wiki/klavir" target="_blank"><img class="foto-inst" src="Slike/klavir.jpg"></a></td><td><img id="klavir" class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a5">Сазнај више</a></td>
+				</tr>
+				<tr>
+					<td>Бубњеви</td><td><a href="https://sr.wikipedia.org/wiki/bubnjevi" target="_blank"><img class="foto-inst" src="Slike/bubnjevi.jpg"></a></td><td><img id="bubnjevi" class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a6">Сазнај више</a></td>
+				</tr>
+				</table>
+   				</div>
+   				<div class="treci">		
+   				</div>
+   			</div>
+			
+		</div>
+		<div class="footer">
+			Copyright Ⓒ Основна школа "Соња Маринковић"
+		</div>
+	</div>
+	<audio  id="gitaraz" src="Zvuk/gitara.mp3"></audio>
+	<audio  id="harmonikaz" src="Zvuk/harmonika.mp3"></audio>
+	<audio  id="trubaz" src="Zvuk/truba.mp3"></audio>
+	<audio  id="saksofonz" src="Zvuk/saksofon.mp3"></audio>
+	<audio  id="klavirz" src="Zvuk/klavir.mp3"></audio>
+	<audio  id="bubnjeviz" src="Zvuk/bubnjevi.mp3"></audio>
+	<script type="text/javascript" src="Kodovi/main.js"></script>
+</body>
+</html>
