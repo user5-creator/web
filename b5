@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>Почетна</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Kodovi/main.css">
+</head>
+<body>
+	<div class="page">
+		<div class="ostalo">
+			<h1>ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</h1>
+  			<div class="meni">
+  				<nav>
+					<a class="aktiv" href="index.html">Почетна</a>
+					<a href="Kodovi/o_autoru.html">О аутору</a>
+					<a href="Kodovi/uputstvo.html">Упутство</a>
+				</nav>
+  			</div>
+  			   		
+   			<h3>Звуци инструмената</h3>
+
+   			<div class="glavni">
+   				<div class="prvi">
+   					М к <br>
+   					у у <br>
+   					з л <br>
+   					и т <br>
+   					ч у <br>
+   					к р <br>
+   					а а <br>
+   				</div>
+   				<div class="drugi">
+   				<table>
+				<tr>
+					<th>Назив инструмента</th>
+					<th>Слика инструмента</th>
+					<th>Звук инструмента</th>
+				</tr>
+				<tr>
+					<td>Гитара</td><td><a href="https://sr.wikipedia.org/wiki/gitara" target="_blank"><img class="foto-inst" src="Slike/gitara.jpg"></a></td><td><img id="gitara"  class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a1">Сазнај више</a></td>
+				</tr>
+				<tr>
+					<td>Хармоника</td><td><a href="https://sr.wikipedia.org/wiki/harmonika" target="_blank"><img class="foto-inst" src="Slike/harmonika.jpg"></a></td><td><img id="harmonika" class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a2">Сазнај више</a></td>
+				</tr>
+				<tr>
+					<td>Труба</td><td><a href="https://sr.wikipedia.org/wiki/truba" target="_blank"><img class="foto-inst" src="Slike/truba.jpg"></a></td><td><img id="truba" class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a3">Сазнај више</a></td>
+				</tr>
+				<tr>
+					<td>Саксофон</td><td><a href="https://sr.wikipedia.org/wiki/saksofon" target="_blank"><img class="foto-inst" src="Slike/saksofon.jpg"></a></td><td><img id="saksofon" class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a4">Сазнај више</a></td>
+				</tr>
+				<tr>
+					<td>Клавир</td><td><a href="https://sr.wikipedia.org/wiki/klavir" target="_blank"><img class="foto-inst" src="Slike/klavir.jpg"></a></td><td><img id="klavir" class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a5">Сазнај више</a></td>
+				</tr>
+				<tr>
+					<td>Бубњеви</td><td><a href="https://sr.wikipedia.org/wiki/bubnjevi" target="_blank"><img class="foto-inst" src="Slike/bubnjevi.jpg"></a></td><td><img id="bubnjevi" class="foto-zvucnik" src="Slike/zvucnik.jpg"><br><a href="" id="a6">Сазнај више</a></td>
+				</tr>
+				</table>
+   				</div>
+   				<div class="treci">		
+   				</div>
+   			</div>
+			
+		</div>
+		<div class="footer">
+			Copyright Ⓒ Основна школа "Соња Маринковић"
+		</div>
+	</div>
+	<audio  id="gitaraz" src="Zvuk/gitara.mp3"></audio>
+	<audio  id="harmonikaz" src="Zvuk/harmonika.mp3"></audio>
+	<audio  id="trubaz" src="Zvuk/truba.mp3"></audio>
+	<audio  id="saksofonz" src="Zvuk/saksofon.mp3"></audio>
+	<audio  id="klavirz" src="Zvuk/klavir.mp3"></audio>
+	<audio  id="bubnjeviz" src="Zvuk/bubnjevi.mp3"></audio>
+	<script type="text/javascript" src="Kodovi/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+--main.css
+.page {
+	height: 100vh;
+	display: grid;
+	grid-template: "gornji"
+				   "futer";
+	grid-template-rows: 1fr 36px;	
+}
+.ostalo {
+	grid-area: gornji;
+	text-align: center;
+}
+.footer {
+	grid-area: futer;
+	background-color: #009933;	
+	color: white;
+	font-size: 16px;
+	text-align: center;	
+	padding: 3px 0;
+}
+.meni {
+	background-color: #80ffaa;
+}
+nav {
+	display: flex;
+	background: #80ffaa;
+	width: 70%;
+	margin: auto;
+}
+nav a {
+	flex-grow: 1;
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	transition: 300ms;
+}
+nav a:hover,
+nav a.aktiv {
+	background: #009933;
+	color: white;
+}
+body {
+	margin: 0px;
+    background-color: #ffff99;
+    color: #009933;
+}
+table {
+	background-color: #80ffaa;
+	width: 100%;
+	height: 100%;	
+}
+table th {
+	background-color: #009933;
+	color: white;
+	font-size: 16px;
+	height: 30px;
+}
+table td {
+	font-size: 20px;
+}
+table,th,td {
+	margin: auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	color: black;
+}
+table a {
+	color: black;
+	font-size: 12px;
+}
+.foto-inst {
+	margin: auto;
+	width: 50px;
+	height: 50px;
+}
+.foto-zvucnik {
+	margin-top: 3px;
+	width: 30px;
+	height: 30px;
+}
+.tekst-autora {	
+	font-size: 20px;	
+}
+.glavni {	
+	display: flex;
+}
+.prvi {	
+	flex-grow: 0.9;
+	padding-right: 20px;	
+	text-align: right;
+	font-size: 50px;	
+}
+.drugi {	
+	flex-grow: 1;
+		
+}
+.treci {	
+	flex-grow: 1.3;
+}
+
+--main.js
+var gitara=document.getElementById('gitara');
+var harmonika=document.getElementById('harmonika');
+var truba=document.getElementById('truba');
+var saksofon=document.getElementById('saksofon');
+var klavir=document.getElementById('klavir');
+var bubnjevi=document.getElementById('bubnjevi');
+
+var gitaraz=document.getElementById('gitaraz');
+var harmonikaz=document.getElementById('harmonikaz');
+var trubaz=document.getElementById('trubaz');
+var saksofonz=document.getElementById('saksofonz');
+var klavirz=document.getElementById('klavirz');
+var bubnjeviz=document.getElementById('bubnjeviz');
+
+var a1=document.getElementById('a1');
+var a2=document.getElementById('a2');
+var a3=document.getElementById('a3');
+var a4=document.getElementById('a4');
+var a5=document.getElementById('a5');
+var a6=document.getElementById('a6');
+
+gitara.addEventListener('mouseover',function(){
+	gitaraz.play();
+});
+harmonika.addEventListener('mouseover',function(){
+	harmonikaz.play();
+});
+truba.addEventListener('mouseover',function(){
+	trubaz.play();
+});
+saksofon.addEventListener('mouseover',function(){
+	saksofonz.play();
+});
+klavir.addEventListener('mouseover',function(){
+	klavirz.play();
+});
+bubnjevi.addEventListener('mouseover',function(){
+	bubnjeviz.play();
+});
+
+/*a1.addEventListener('click',function(){
+	window.open("opis/gitara.html",'_blank','width=250,height=120,left=1070,top=300');
+});*/
+a2.addEventListener('click',function(){
+	window.open("opis/harmonika.html",'_blank','width=250,height=120,left=1070,top=350');
+});
+a3.addEventListener('click',function(){
+	window.open("opis/truba.html",'_blank','width=250,height=120,left=1070,top=400');
+});
+a4.addEventListener('click',function(){
+	window.open("opis/saksofon.html",'_blank','width=250,height=120,left=1070,top=450');
+});
+a5.addEventListener('click',function(){
+	window.open("opis/klavir.html",'_blank','width=250,height=120,left=1070,top=500');
+});
+a6.addEventListener('click',function(){
+	window.open("opis/bubnjevi.html",'_blank','width=250,height=120,left=1070,top=550');
+});
+
